@@ -1,0 +1,892 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: url(../imagenes/FondoL.jpg);
+    background-size: cover;
+}
+
+#fondoprincipal{
+    width: 84%;
+    height: 422vh;
+    background: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 2px;
+}
+
+#barra_general{
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+#barracambios a:hover{
+    color: white;
+    text-decoration:underline;
+}
+
+#subcambio li:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+#j{
+    color: rgb(51, 63, 80);
+    font-weight: bolder;
+}
+
+#espacio_barra{
+    width: 100%;
+    height: 7vh;
+    background: rgb(51, 63, 80);
+}
+
+#contenido_principal{
+    width: 100%;
+    height: 25vh;
+    background: rgb(51, 63, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+#texto_principal{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+#texto_secundario{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#cont1{
+    width: 100%;
+    height: 55vh;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido1{
+    width: 60%;
+    height: 55vh;
+    text-align: justify;
+    padding: 1%;
+}
+
+#contenido1 h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#contenido1 p{
+    font-size: 20px;
+}
+
+#contenido2{
+    width: 40%;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tarjeta1{
+    height: 22vh;
+}
+
+#tarjeta1 img{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 80%;
+    height: 22vh;
+}
+
+#tarjeta_parte2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+
+#textotarjeta{
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+
+#tarjetacambiocont1:hover{
+    transition: 1.5s all;
+    background-color: rgb(51, 63, 80);
+    border-end-end-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+}
+
+#linea1{
+    width: 100%;
+    height: 0.5vh;
+    background: rgba(51, 63, 80, 0.264);
+    margin-bottom: 20px;
+}
+
+#cont2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    text-align: justify;
+}
+
+#contenido3{
+    width: 60%;
+    height: 50vh;
+    text-align: justify;
+    padding: 2%;
+}
+
+#contenido3 h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#contenido3 p{
+    font-size: 20px;
+}
+
+#contenido4{
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido4 img{
+    width: 90%;
+    height: 38vh;
+    border-radius: 4px;
+}
+
+
+#linea2{
+    width: 100%;
+    height: 0.5vh;
+    background: rgba(51, 63, 80, 0.264);
+    margin-bottom: 20px;
+}
+
+#cont3{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    text-align: justify;
+}
+
+#contenido5{
+    width: 60%;
+    height: 63vh;
+    text-align: justify;
+    padding: 2%;
+}
+
+#contenido5 h1{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#contenido5 p{
+    font-size: 20px;
+}
+
+#contenido6{
+    padding: 2%;
+    width: 40%;
+    height: 40vh;
+}
+
+#contenido6 img{
+    width: 90%;
+    height: 35vh;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#linea3{
+    width: 100%;
+    height: 0.5vh;
+    background: rgba(51, 63, 80, 0.264);
+    margin-bottom: 20px;
+}
+
+#cont4{
+    width: 100%;
+    height: 100vh;
+    text-align: justify;
+    display: flex;
+    padding: 2%;
+}
+
+#contenido7 h1{
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: rgb(51, 63, 80);
+}
+
+#contenido7 h5{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#tarjeta{
+    width: 100%;
+    height: 40vh;
+}
+
+#tarjetacambio:hover{
+    transition: 1.5s all;
+    background-color: rgb(51, 63, 80);
+    border-end-end-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+}
+
+#tarjetacambio h5:hover{
+    transition: 1.5s all;
+    color: white;
+}
+
+#imagentarjeta{
+    width: 100%;
+    height: 30vh;
+}
+
+#contenido8{
+    width: 55%;
+    height: 90vh;
+    margin-top: 55px;
+}
+
+#contenido8 p{
+    font-size: 20px;
+}
+
+#linea4{
+    width: 100%;
+    height: 0.5vh;
+    background: rgba(51, 63, 80, 0.264);
+    margin-bottom: 20px;
+}
+
+#cont5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    text-align: justify;
+}
+
+#contenido9{
+    width: 65%;
+    height: 50vh;
+    text-align: justify;
+    padding: 2%;
+}
+
+#cont5 h1{
+    font-size: 34px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#contenido9 p{
+    font-size: 20px;
+}
+
+#contenido10{
+    width: 35%;
+    height: 50vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido10 img{
+    width: 85%;
+    height: 35vh;
+    border-radius: 4px;
+}
+
+#linea5{
+    width: 100%;
+    height: 0.5vh;
+    background: rgba(51, 63, 80, 0.264);
+    margin-bottom: 50px;
+}
+
+#cont6{
+    width: 96%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(51, 63, 80, 0.264);
+    border-radius: 5px;
+    margin: 2%;
+}
+
+#contenido11{
+    width: 20%;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+#contenido11 h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(51, 63, 80);
+}
+
+#contenido12{
+    width: 50%;
+    height: 55vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+#contenido13{
+    width: 50%;
+    height: 55vh;  
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1%;
+    margin-top: 10px;
+}
+
+#contenido13 p{
+    font-size: 20px;
+}
+
+#conttitulo{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background: rgb(51, 63, 80);
+    margin-top: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#conttitulo h1{
+    padding: 2%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#cont7{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(51, 63, 80);
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#contenido14{
+    width: 45%;
+    height: 20vh;
+    color: white;
+    padding: 2%;
+}
+
+#contenido14 a{
+    color: white;
+}
+
+#contenido15{
+    width: 45%;
+    height: 20vh;
+    color: white;
+    padding: 2%;
+}
+
+#contenido15 a{
+    color: white;
+}
+
+
+@media (max-width:400px) {
+    #fondoprincipal{
+        width: 390px;
+        height: 565vh;
+        background: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 2px;
+    }
+    
+    #barra_general{
+        width: 400px;
+    }
+
+    #barrac{
+        font-size: 12px;
+        background: rgb(33, 37, 41);
+    }
+
+    #barrac a{
+        font-size: 12px;
+    }
+
+    #subcambio{
+        font-size: 10px;
+    }
+
+    #botonbarra{
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #iconobarra{
+        width: 22px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contenido_principal{
+        width: 100%;
+        height: 70px;
+        background: rgb(51, 63, 80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+    }
+
+    #Principal{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #texto_principal{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    #texto_secundario{
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    #cont1{
+        width: 100%;
+        height: 73vh;
+        margin-top: 10PX;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #contenido1{
+        width: 100%;
+        height: 50vh;
+        text-align: justify;
+        padding: 1%;
+    }
+    
+    #contenido1 h1{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(51, 63, 80);
+    }
+
+    br{
+        display: none;
+    }
+    
+    #contenido1 p{
+        font-size: 14px;
+    }
+    
+    #contenido2{
+        width: 100%;
+        height: 23vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #contenidotarjeta{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #tarjetacambiocont1{
+        width: 180px;
+        height: 110px;
+        margin: 5px;
+    }
+
+    #tarjetacambiocont1 h5{
+        font-size: 12px;
+    }
+
+    #tarjetacambiocont1 p{
+        font-size: 9px;
+    }
+
+    #cambiot{
+        width: 180px;
+        height: 110px;
+        display: flex;
+    }
+    
+    #tarjeta1{
+        width: 55px;
+        height: 110px;
+        align-items: center;
+    }
+    
+    #tarjeta1 img{
+        width: 55px;
+        height: 109px;
+    }
+    
+    #tarjeta_parte2{
+        width: 125px;
+        height: 109px;
+    }
+    
+    #textotarjeta{
+        text-align: center;
+    }
+    
+    .card-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #cont2{
+        width: 100%;
+        height: 70vh;
+        flex-direction: column;
+        text-align: justify;
+        margin-top: 35px;
+    }
+    
+    #contenido3{
+        width: 100%;
+        height: 45vh;
+        text-align: justify;
+        padding: 2%;
+    }
+    
+    #contenido3 h1{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: justify;
+        color: rgb(51, 63, 80);
+    }
+    
+    #contenido3 p{
+        font-size: 14px;
+    }
+    
+    #contenido4{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contenido4 img{
+        width: 60%;
+        height: 18vh;
+        border-radius: 5px;
+    }
+
+    #cont3{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        text-align: justify;
+        margin-top: 35px;
+    }
+    
+    #contenido5{
+        width: 100%;
+        height: 75vh;
+        text-align: justify;
+        padding: 2%;
+    }
+    
+    #contenido5 h1{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(51, 63, 80);
+    }
+    
+    #contenido5 p{
+        font-size: 14px;
+    }
+    
+    #contenido6{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contenido6 img{
+        width: 45%;
+        height: 15vh;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    #cont4{
+        width: 100%;
+        height: 115vh;
+        text-align: justify;
+        display: flex;
+        padding: 2%;
+        margin-top: 35px;
+    }
+
+    #contenido7{
+        width: 150px;
+        height: 100vh
+    }
+    
+    #contenido7 h1{
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: rgb(51, 63, 80);
+    }
+    
+    #contenido7 h5{
+        font-size: 12px;
+        font-weight: bolder;
+        color: rgb(51, 63, 80);
+    }
+    
+    #tarjeta{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tarjetacambio{
+        width: 124px;
+        height: 50px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    #imagentarjeta{
+        width: 100%;
+        height: 75px;
+    }
+    
+    #contenido8{
+        width: 100%;
+        height: 90vh;
+        margin-top: 90px;
+        padding: 3%;
+    }
+    
+    #contenido8 p{
+        font-size: 14px;
+    }
+    
+    #cont5{
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    #contenido9{
+        width: 100%;
+        height: 48vh;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 2%;
+    }
+    
+    #cont5 h1{
+        font-size: 20px;
+    }
+    
+    #contenido9 p{
+        font-size: 14px;
+    }
+    
+    #contenido10{
+        width: 100%;
+        height: 30vh;  
+    }
+    
+    #contenido10 img{
+        width: 80%;
+        height: 26vh;
+        border-radius: 5px;
+    }
+    
+    #cont6{
+        width: 96%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2%;
+    }
+    
+    #contenido11{
+        width: 100%;
+        height: 12vh;
+        margin-top: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    #contenido11 h1{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(51, 63, 80);
+    }
+    
+    #contenido12{
+        width: 100%;
+        height: 35vh;  
+        padding: 4%;
+    }
+
+    #contenido13{
+        width: 100%;
+        height: 42vh;  
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 10px;
+    }
+    
+    #contenido13 p{
+        font-size: 14px;
+    }
+
+    #conttitulo{
+        width: 100%;
+        height: 5vh;
+        color: white;
+        background: rgb(51, 63, 80);
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    #conttitulo h1{
+        font-size: 20px;
+    }
+    
+    #cont7{
+        width: 100%;
+        height: 20vh;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 11px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    #contenido14{
+        width: 45%;
+        height: 18vh;
+    }
+    
+    #contenido14 a{
+        color: white;
+    }
+    
+    #contenido15{
+        width: 45%;
+        height: 18vh;
+    }
+    
+}
